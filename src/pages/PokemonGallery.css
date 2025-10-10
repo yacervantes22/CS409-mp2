@@ -1,0 +1,106 @@
+.pokemon-gallery-page {
+    padding: 32px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.pokemon-gallery-page-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.pokemon-gallery-filters {
+    margin-bottom: 32px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-gallery-filters-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.pokemon-gallery-filters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 12px;
+}
+
+.pokemon-gallery-filter-button {
+    padding: 10px 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.2s ease;
+}
+
+.pokemon-gallery-filter-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-gallery-filter-button-active {
+    border-color: #ef5350;
+    background-color: #ef5350;
+    color: white;
+}
+
+.pokemon-gallery-count {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.pokemon-gallery-clear-button {
+    padding: 10px 20px;
+    border: 2px solid #666;
+    border-radius: 8px;
+    background-color: #666;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.pokemon-gallery-clear-button:hover {
+    background-color: #555;
+}
+
+.pokemon-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.pokemon-gallery-loading {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #666;
+}
+
+.pokemon-gallery-error {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #ef5350;
+}
+
+.pokemon-gallery-no-results {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #666;
+}

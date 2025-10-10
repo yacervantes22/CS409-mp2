@@ -1,0 +1,95 @@
+.pokemon-list-page {
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pokemon-list-page-title {
+    font-size: 32px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+.pokemon-list-search-bar {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+}
+
+.pokemon-list-search-bar:focus {
+    outline: none;
+    border-color: #369368;
+}
+
+.pokemon-list-count {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.pokemon-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.pokemon-list-loading {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #666;
+}
+
+.pokemon-list-error {
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    color: #2560a9;
+}
+
+.pokemon-list-controls {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pokemon-list-sort-select {
+    padding: 10px 16px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.pokemon-list-sort-select:focus {
+    outline: none;
+    border-color: #3159b7;
+}
+
+.pokemon-list-sort-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #1b29c6;
+    border-radius: 8px;
+    background-color: #4585b7;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.pokemon-list-sort-button:hover {
+    background-color: #4a60a8;
+}
+
+.pokemon-list-sort-button:active {
+    transform: scale(0.98);
+}
